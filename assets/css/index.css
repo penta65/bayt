@@ -1,0 +1,279 @@
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.top-header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  color: #fff;
+  background-color: #000000;
+}
+
+.header-bar {
+  width: 100%;
+}
+
+.header-bar-item {
+  float: left;
+  width: auto;
+  display: block;
+  outline: 0;
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  white-space: nowrap;
+  background-color: #000000;
+}
+
+.green-bg {
+  color: #fff;
+  background-color: #009688 !important;
+}
+
+.header-bar-item:hover {
+  color: #fff;
+  background-color: #009688 !important;
+  cursor: pointer;
+}
+
+.small-nav {
+  width: 100% !important;
+}
+
+.margin-right-16 {
+  margin-right: 16px !important;
+}
+
+.right {
+  float: right;
+}
+
+.phone-nav {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider-image {
+  width: 100%;
+  min-height: 300px;
+  max-height: 700px;
+}
+
+.slider-button {
+  font-size: 20px;
+}
+
+.bottomleft {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+.team-container {
+  padding: 64px;
+}
+
+.light-text {
+  font-weight: 100;
+}
+
+.team {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+
+.team-section {
+  width: 25%;
+}
+
+.team-picture {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.work-container {
+  display: flex;
+  padding: 24px;
+  color: #fff !important;
+  background-color: #333333 !important;
+}
+
+.customer-section {
+  padding: 10px;
+}
+
+.customer-sub-section {
+  padding: 10px;
+}
+
+.card-white {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.plus-icon {
+  position: absolute;
+  top: -28px;
+  right: 24px;
+  border-radius: 60%;
+  height: 22px;
+}
+
+.contact-container {
+  display: flex;
+  padding: 24px;
+  padding-top: 56px !important;
+  color: #000 !important;
+  background-color: #f0f0f0 !important;
+}
+
+.col-5 {
+  width: 42%;
+}
+
+.col-7 {
+  width: 58%;
+}
+
+.contact-heading {
+  font-size: 24px !important;
+  border-bottom: 6px solid #009688 !important;
+}
+
+.contact-heading-padding {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.contact-icon {
+  font-size: 16px !important;
+  color: #009688;
+}
+
+.contact-form {
+  padding: 24px;
+  color: #000 !important;
+  background-color: #fff !important;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-section {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+
+.contact-input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.footer {
+  padding: 32px;
+  color: #fff !important;
+  background-color: #000000 !important;
+}
+
+.follow-us {
+  margin-bottom: 20px !important;
+}
+
+.social-icon {
+  outline: 0;
+  border: none;
+  padding: 8px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  white-space: nowrap;
+  background-color: #000000;
+}
+
+.to-top {
+  position: relative;
+  bottom: 100px;
+  z-index: 1;
+  right: 10px;
+  text-align: right !important;
+}
+
+.top-icon {
+  font-size: 16px;
+  background-color: #000000;
+  padding: 8px;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .hide-phone {
+    display: none;
+  }
+  .show-phone {
+    display: block;
+    width: 100% !important;
+  }
+  .team {
+    display: block;
+  }
+  .team-section {
+    width: 100%;
+  }
+  .contact-container {
+    display: block;
+  }
+  .work-container {
+    display: block;
+  }
+  .col-5 {
+    width: 100% !important;
+  }
+  .col-7 {
+    width: 100% !important;
+  }
+  .customer-section {
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 601px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
